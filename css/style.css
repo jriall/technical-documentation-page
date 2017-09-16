@@ -41,25 +41,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/*End reset*/
+body {
+  font-family: 'Open Sans',Arial,sans-serif;
+}
 
 .sidenav {
   min-height: 100%;
   position: fixed;
-  z-index: 1;
   top:0;
   left: 0;
   overflow-x: hidden;
   border-right: 2px solid gray;
-}
-
-@media only screen and (max-width: 768px) {
-  .sidenav {
-    position: relative;
-    max-height: 260px;
-    border-width: 0 0 2px 0;
-    border-style: solid;
-    border-color: gray;
-  }
 }
 
 h1 {
@@ -78,8 +71,56 @@ h1 {
   border-width: 1px 0 1px 0;
   border-style: solid;
   border-color: black;
+  color: black;
 }
 
 #last-menu-item {
   border-bottom: 0;
+}
+
+main {
+  padding: 50px 50px 50px 400px;
+  line-height: 125%;
+  color: #4D4E53;
+}
+
+section {
+  padding: 10px 0 10px 0;
+}
+
+main header {
+  color: black;
+  font-size: 160%;
+  padding: 15px 0 10px 0;
+}
+
+main p {
+  padding: 15px 0 5px 0;
+}
+
+main li {
+  padding: 15px 0 0 40px;
+}
+
+main code {
+  padding: 15px 0 5px 0;
+  display: block;
+  font-family: Courier, 'New Courier', monospace;
+  background-color: #EEEEEE;
+  padding: 10px 0 10px 20px;
+  margin: 20px 0 20px 40px;
+  overflow:scroll;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    position: relative;
+    max-height: 260px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: gray;
+  }
+  main {
+    padding-left: 50px;
+  }
 }
