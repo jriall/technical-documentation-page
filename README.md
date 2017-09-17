@@ -1,4 +1,4 @@
-#JS DOCUMENTATION PAGE
+# JS DOCUMENTATION PAGE
 
 Project challenge set by freeCodeCamp's Beta Curriculum in order to practice responsive page design. Content taken from example project, but all page structure and styling coded from scratch.
 
